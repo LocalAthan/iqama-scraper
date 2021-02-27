@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.5.1",
-    "jsdom": "^16.4.0"
-  }
+    "got": "^11.8.2"
+  },
+  "type": "module"
 }
