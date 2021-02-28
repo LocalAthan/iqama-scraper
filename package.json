@@ -1,5 +1,5 @@
 {
-  "name": "masjidscraper",
+  "name": "mosquescraper",
   "version": "1.0.0",
   "description": "scrape websites of local mosques for prayer times",
   "main": "index.js",
