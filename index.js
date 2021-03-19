@@ -20,7 +20,7 @@ app.get('/prayerTimes/:id', ash(async (req, res) => {
         res.sendStatus(404)
     }
 
-    const script = scripts[mosque.script];
+    const script = scripts[mosque.scraperScript];
     const prayerTimes = await script.run(mosque.prayerTimesUrl)
 
     res.send(prayerTimes)

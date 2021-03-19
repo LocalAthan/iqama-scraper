@@ -9,9 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
-    "got": "^11.8.2"
+    "got": "^11.8.2",
+    "jquery": "^3.6.0",
+    "jsonframe": "0.0.2",
+    "nstall": "^0.2.0",
+    "reequest": "0.0.1-security",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "table-scraper": "^1.0.3"
   },
   "type": "module"
 }
