@@ -1,9 +1,6 @@
 import got from 'got'
 import cheerio from 'cheerio'
 
-//import { createRequire } from 'module';
-//const require = createRequire(import.meta.url);
-
 const run = async (url) => {
 
     const omariRequest = await got(url);
@@ -37,31 +34,3 @@ const run = async (url) => {
 export default {
     run
 }
-
-
-
-
-
-
-/*
-
-
-
-   var frame = {
-    
-        "prayer times": [{
-            
-            selector": ".table caption"
-                "data": [{ 
-                    "date": 
-                }] 
-    
-            "selector": ".prayer-times"
-                "data": [{
-    
-                    "fajr": ".th-lite"
-                }]
-        }
-    }
-    
-*/
