@@ -2,7 +2,7 @@ const mosques = [
     {
         id: 1,
         name: "Dar Al-Sunnah",
-        address: "9216 105 Ave NW, Edmonton, AB T5H 0J5",
+        address: "9228 144 Ave NW, Edmonton, AB T5E 6A3",
         imageUrl: "https://lirp-cdn.multiscreensite.com/bd8c603f/dms3rep/multi/opt/Dar-Al-Sunnah-Logo-584w.png",
         websiteUrl: "https://www.daralsunnah.com/",
         prayerTimesUrl: "https://mosque.me/prayer-times/daralsunnah/getdata.php",
@@ -11,7 +11,7 @@ const mosques = [
     {
         id: 2,
         name: "Sahaba Mosque",
-        address: "9228 144 Ave NW, Edmonton, AB T5E 6A3",
+        address: "9216 105 Ave NW, Edmonton, AB T5H 0J5",
         imageUrl: "https://lirp-cdn.multiscreensite.com/7a517fc2/dms3rep/multi/opt/Screen+Shot+2019-01-24+at+10.12.23+PM-1920w.png",
         websiteUrl: "https://www.sahabamosque.ca/",
         prayerTimesUrl: "https://mosque.me/prayer-times/sahaba/getdata.php",
