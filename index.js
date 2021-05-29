@@ -7,6 +7,8 @@ import mosques from './mosques.js'
 const app = express()
 const port = 3000
 
+app.disable("etag");
+
 app.get('/', (req, res) => res.send("Running"))
 
 app.get('/mosques', (req, res) => {
