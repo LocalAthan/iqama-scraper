@@ -10,7 +10,7 @@ After cloning project:
 
 1. install dependencies
    
-   `npm install`
+   `npm ci`
 2. run
    
    `npm start`
