@@ -10,10 +10,12 @@ After cloning project:
 
 1. install dependencies
    
-   `npm install`
+   `npm ci`
 2. run
    
    `npm start`
+
+*note that the most up-to-date work is done on the `developmemt` branch*
    
 ### How to Contribute 
 
