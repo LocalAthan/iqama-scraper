@@ -2,10 +2,10 @@
   "name": "mosquescraper",
   "version": "1.0.0",
   "description": "scrape websites of local mosques for prayer times",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "ts-node index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,5 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "table-scraper": "^1.0.3"
-  },
-  "type": "module"
+  }
 }

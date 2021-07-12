@@ -1,9 +1,10 @@
+import { PrayerTimes } from "../interfaces";
 import got from "got";
 
-const run = async (url) => {
+const run = async (url: string): Promise<PrayerTimes> => {
   const mosqueMeRequest = await got(url);
   const mosqueMeJson = JSON.parse(mosqueMeRequest.body);
-  const prayerTimes = {
+  const prayerTimes: PrayerTimes = {
     fajr: {
       athan: mosqueMeJson.fajr,
       iqama: mosqueMeJson.fajri,
