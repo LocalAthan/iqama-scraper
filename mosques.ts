@@ -1,4 +1,5 @@
-const mosques = [
+import { Mosque } from "./interfaces";
+const mosques: Mosque[] = [
   {
     id: 1,
     name: "Dar Al-Sunnah",
@@ -60,4 +61,4 @@ const mosques = [
   },
 ];
 
-export default mosques
+export default mosques;
