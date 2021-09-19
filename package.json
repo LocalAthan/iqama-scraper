@@ -17,9 +17,14 @@
     "jquery": "^3.6.0",
     "jsonframe": "0.0.2",
     "nstall": "^0.2.0",
+    "redis": "^3.1.2",
     "reequest": "0.0.1-security",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "table-scraper": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/redis": "^2.8.32"
   }
 }

@@ -12,13 +12,10 @@ RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
 
-# TypeScript
-RUN npm install -g typescript
-RUN npm install -g ts-node
-
 # Bundle app source
 COPY . .
 
+RUN npm install -g typescript ts-node 
 
 EXPOSE 3000
 CMD npm start
