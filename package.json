@@ -20,6 +20,8 @@
     "reequest": "0.0.1-security",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "table-scraper": "^1.0.3"
+    "table-scraper": "^1.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
